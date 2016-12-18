@@ -10,6 +10,7 @@ group :development do
 end
 group :production do
   gem 'pg'
+  ruby '2.3.1'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
